@@ -1,0 +1,41 @@
+{
+  "name": "ai-pr-risk-labeler",
+  "version": "0.1.0",
+  "description": "Check PR descriptions for enough evidence to label AI-assisted change risk.",
+  "type": "module",
+  "bin": {
+    "ai-pr-risk-labeler": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js --path fixtures/good.txt --min-score 75"
+  },
+  "files": [
+    "src",
+    "fixtures",
+    "docs",
+    "examples",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE",
+    "SECURITY.md",
+    "CONTRIBUTING.md"
+  ],
+  "keywords": [
+    "pull-request",
+    "risk",
+    "ai-assisted",
+    "code-review",
+    "developer-tools"
+  ],
+  "author": "Aolingge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aolingge/ai-pr-risk-labeler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aolingge/ai-pr-risk-labeler/issues"
+  },
+  "homepage": "https://github.com/aolingge/ai-pr-risk-labeler"
+}

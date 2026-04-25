@@ -1,0 +1,3 @@
+AI-assisted: Codex generated docs. Surface: README and docs. Risk: low, no breaking changes. Verification: npm test and CI.
+
+Operational note: run this in CI with --markdown and --sarif.

@@ -1,0 +1,1 @@
+AI-assisted: Codex generated docs. Surface: README and docs. Risk: low, no breaking changes. Verification: npm test and CI.
